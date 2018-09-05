@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="" method="POST">
+            Nama: <input type="text" name="Nama">
+            <br>
+            Jenis Kelamin: 
+                <input type="radio" name="Jenis-Kelamin" value="L"> Lelaki &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Jenis-Kelamin" value="P"> Perempuan
+            <br>
+            Hobi:
+                <input type="checkbox" name="hb1" value="hb1">Membaca &nbsp;
+                <input type="checkbox" name="hb2" value="hb2s">Menulis &nbsp;
+                <input type="checkbox" name="hb3" value="hb3">Futsal &nbsp;
+                <input type="checkbox" name="hb4" value="hb4">Memancing &nbsp;
+                <p>Color: <input type="color" name="Color"></p><br>
+                <p>Time: <input type="time" name="Time"></p><br>
+                <p>Date: <input type="date" name="Date"></p><br>
+
+                <p>Address: </p><br>
+                <textarea cols="150" rows="10" name="Address"></textarea>
+
+                <br>
+                <p>Agama: </p>
+                <select name="Agama" id="Agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen" selected>Kristen</option>
+                    <option value="budha">Budha</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="konghucu">Konghucu</option>
+                </select>
+                <br>
+                <p>Mobil: </p>
+                <select name="mobil" id="mobil">
+                    <optgroup label="Japan">
+                        <option value="toyota">Toyota</option>
+                        <option value="honda">Honda</option>
+                        <option value="Suzuki">Suzuki</option>
+                        <option value="Mitsubishi">Mitsubishi</option>
+                    </optgroup>
+                    <optgroup label="German">
+                        <option value="BMW">BMW</option>
+                        <option value="MB">Mercedez Benz</option>
+                        <option value="VW">Volks Wagen</option>
+                    </optgroup>
+                </select>
+
+                <p><input type="submit" name="Submit"></p><br>
+        </form>
+    </body>
+</html>
